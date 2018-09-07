@@ -1,6 +1,6 @@
 Notes / notebook
 
-Cloud? It will be flexible. User should be able to run it locally or on the cloud, therefore it should run in a container (Docker)
+Cloud? User should be able to run it locally or on the cloud, therefore it should run in a container (Docker)
 
 DB? Since the focus is on input, and it should be able to work with a variety of inventory management services, the backend API should make no assumptions about its storage medium.  I'm thinking some kind of lambda functions.  However,  out of the box it will store info in a no SQL database (mongoDB).
 
