@@ -1,0 +1,15 @@
+{
+  "name": "osie",
+  "version": "0.0.1",
+  "description": "open source inventory entry",
+  "main": "index.js",
+  "repository": "https://github.com/rendall/osie.git",
+  "author": "Rendall <rendall@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start":"npx http-server"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
