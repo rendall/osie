@@ -62,3 +62,4 @@ typings/
 
 # OSIE files
 secrets/
+dist/*

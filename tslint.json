@@ -1,0 +1,20 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "rxjs-collapse-imports": true,
+        "rxjs-pipeable-operators-only": true,
+        "rxjs-no-static-observable-methods": true,
+        "rxjs-proper-imports": true,
+        "max-classes-per-file": {
+            "options": [10]
+        },
+        "no-console": false
+    },
+    "rulesDirectory": [
+        "node_modules/rxjs-tslint"
+    ]
+}

@@ -2,14 +2,24 @@
   "name": "osie",
   "version": "0.0.1",
   "description": "open source inventory entry",
-  "main": "index.js",
+  "private": true,
   "repository": "https://github.com/rendall/osie.git",
   "author": "Rendall <rendall@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start":"npx http-server"
+    "build": "webpack",
+    "start": "http-server ./dist",
+    "dev": "concurrently \"tsc --watch\" \"webpack --watch\" \"http-server ./dist\""
   },
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "concurrently": "^4.1.0",
+    "dotenv-webpack": "^1.6.0",
+    "http-server": "^0.11.1",
+    "rxjs-tslint": "^0.1.6",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "rxjs": "^6.3.3"
   }
 }
