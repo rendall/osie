@@ -12,14 +12,14 @@
     "dev": "concurrently \"tsc --watch\" \"webpack --watch\" \"http-server ./dist\""
   },
   "devDependencies": {
-    "concurrently": "^4.1.0",
-    "dotenv-webpack": "^1.6.0",
-    "http-server": "^0.11.1",
-    "rxjs-tslint": "^0.1.6",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "concurrently": "^5.3.0",
+    "dotenv-webpack": "^4.0.0",
+    "http-server": "^0.12.3",
+    "rxjs-tslint": "^0.1.8",
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0"
   },
   "dependencies": {
-    "rxjs": "^6.3.3"
+    "rxjs": "^6.6.3"
   }
 }
