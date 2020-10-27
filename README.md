@@ -8,3 +8,4 @@
 * `webpack --watch`
 * source code is in `./src`
 * production code is in `./dist`
+* run local version: `npx http-server ./dist`
